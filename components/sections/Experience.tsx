@@ -157,6 +157,30 @@ export function Experience() {
             </div>
           </div>
         </div>
+
+        <div className="pt-8 space-y-6">
+          <h3 className="text-2xl font-serif font-semibold text-gray-900">Achievements & Certifications</h3>
+          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-indigo-100 hover:shadow-xl transition-shadow">
+            <div className="flex flex-col md:flex-row gap-6 items-center">
+              <div className="flex-shrink-0 w-full md:w-64">
+                <img
+                  src="/certificate-runner-up.png"
+                  alt="1st Runner-Up Certificate - AI Agent Hackathon"
+                  className="w-full h-auto rounded-lg shadow-md hover:scale-105 transition-transform cursor-pointer"
+                  onClick={() => window.open('/certificate-runner-up.png', '_blank')}
+                />
+              </div>
+              <div className="flex-1 space-y-2">
+                <h4 className="text-xl font-medium text-gray-900">1st Runner-Up – AI Agent Hackathon</h4>
+                <p className="text-gray-600">Product Space · June 2026</p>
+                <p className="text-gray-700 leading-relaxed">
+                  Recognized for exceptional contributions in AI Agent development, demonstrating innovative problem-solving
+                  and technical expertise in building intelligent agent workflows.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
