@@ -42,7 +42,7 @@ export function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com/in/vagisha-anand"
+            href="https://www.linkedin.com/in/vagisha-anand-product/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-4 px-8 py-4 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-purple-100 w-full max-w-md"
